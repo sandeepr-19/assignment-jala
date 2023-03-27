@@ -1,0 +1,33 @@
+#container{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ion-card{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    min-width: 250px;
+}
+ion-item{
+    width: 200px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    margin-bottom: 5px;
+}
+ion-card-content,ion-card-header
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
